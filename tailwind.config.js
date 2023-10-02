@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ['./src/**/*.{html,js,svelte,ts}', 'node_modules/preline/dist/*.js'],
+    content: ['./src/**/*.{html,js,svelte,ts}'],
     theme: {
         extend: {},
     },
-    plugins: [require('daisyui'), require('preline/plugin')],
+    plugins: [require('daisyui')],
 };
